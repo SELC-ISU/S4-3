@@ -6924,113 +6924,113 @@ C:/JUCE/modules/juce_opengl/utils/juce_OpenGLAppComponent.cpp
 
 C:/JUCE/modules/juce_opengl/utils/juce_OpenGLAppComponent.h
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_basics.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_basics.cpp
 AppConfig.h
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 juce_audio_basics/juce_audio_basics.cpp
 -
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_devices.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_devices.cpp
 AppConfig.h
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 juce_audio_devices/juce_audio_devices.cpp
 -
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_formats.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_formats.cpp
 AppConfig.h
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 juce_audio_formats/juce_audio_formats.cpp
 -
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp
 AppConfig.h
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp
 -
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_processors.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_processors.cpp
 AppConfig.h
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 juce_audio_processors/juce_audio_processors.cpp
 -
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_utils.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_utils.cpp
 AppConfig.h
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 juce_audio_utils/juce_audio_utils.cpp
 -
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_core.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_core.cpp
 AppConfig.h
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 juce_core/juce_core.cpp
 -
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_cryptography.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_cryptography.cpp
 AppConfig.h
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 juce_cryptography/juce_cryptography.cpp
 -
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_data_structures.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_data_structures.cpp
 AppConfig.h
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 juce_data_structures/juce_data_structures.cpp
 -
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_events.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_events.cpp
 AppConfig.h
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 juce_events/juce_events.cpp
 -
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_graphics.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_graphics.cpp
 AppConfig.h
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 juce_graphics/juce_graphics.cpp
 -
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_gui_basics.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_gui_basics.cpp
 AppConfig.h
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 juce_gui_basics/juce_gui_basics.cpp
 -
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_gui_extra.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_gui_extra.cpp
 AppConfig.h
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 juce_gui_extra/juce_gui_extra.cpp
 -
 
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_opengl.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_opengl.cpp
 AppConfig.h
-C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h
+C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h
 juce_opengl/juce_opengl.cpp
 -
 
-C:/Users/forne/Documents/TestProject/Source/PluginEditor.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/Source/PluginEditor.cpp
 PluginProcessor.h
-C:/Users/forne/Documents/TestProject/Source/PluginProcessor.h
+C:/Users/Steve Kainashi/Documents/186Lab/Source/PluginProcessor.h
 PluginEditor.h
-C:/Users/forne/Documents/TestProject/Source/PluginEditor.h
+C:/Users/Steve Kainashi/Documents/186Lab/Source/PluginEditor.h
 
-C:/Users/forne/Documents/TestProject/Source/PluginEditor.h
+C:/Users/Steve Kainashi/Documents/186Lab/Source/PluginEditor.h
 JuceHeader.h
 -
 PluginProcessor.h
-C:/Users/forne/Documents/TestProject/Source/PluginProcessor.h
+C:/Users/Steve Kainashi/Documents/186Lab/Source/PluginProcessor.h
 
-C:/Users/forne/Documents/TestProject/Source/PluginProcessor.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/Source/PluginProcessor.cpp
 PluginProcessor.h
-C:/Users/forne/Documents/TestProject/Source/PluginProcessor.h
+C:/Users/Steve Kainashi/Documents/186Lab/Source/PluginProcessor.h
 PluginEditor.h
-C:/Users/forne/Documents/TestProject/Source/PluginEditor.h
+C:/Users/Steve Kainashi/Documents/186Lab/Source/PluginEditor.h
 iostream
 -
 
-C:/Users/forne/Documents/TestProject/Source/PluginProcessor.h
+C:/Users/Steve Kainashi/Documents/186Lab/Source/PluginProcessor.h
 JuceHeader.h
 -
 random
@@ -7038,11 +7038,11 @@ random
 cmath
 -
 
-C:/Users/forne/Documents/TestProject/Source/SineSpeed.cpp
+C:/Users/Steve Kainashi/Documents/186Lab/Source/SineSpeed.cpp
 SineSpeed.h
-C:/Users/forne/Documents/TestProject/Source/SineSpeed.h
+C:/Users/Steve Kainashi/Documents/186Lab/Source/SineSpeed.h
 
-C:/Users/forne/Documents/TestProject/Source/SineSpeed.h
+C:/Users/Steve Kainashi/Documents/186Lab/Source/SineSpeed.h
 JuceHeader.h
 -
 

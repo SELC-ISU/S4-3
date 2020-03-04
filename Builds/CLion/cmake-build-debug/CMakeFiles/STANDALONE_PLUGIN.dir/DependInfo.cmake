@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp" "C:/Users/forne/Documents/TestProject/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/C_/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.obj"
+  "C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp" "C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/C_/Users/Steve_Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
@@ -35,7 +35,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "C:/JUCE/modules"
   )
 set(CMAKE_DEPENDS_CHECK_RC
-  "C:/Users/forne/Documents/TestProject/Builds/CodeBlocksWindows/resources.rc" "C:/Users/forne/Documents/TestProject/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/C_/Users/forne/Documents/TestProject/Builds/CodeBlocksWindows/resources.rc.res"
+  "C:/Users/Steve Kainashi/Documents/186Lab/Builds/CodeBlocksWindows/resources.rc" "C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/C_/Users/Steve_Kainashi/Documents/186Lab/Builds/CodeBlocksWindows/resources.rc.res"
   )
 
 # Preprocessor definitions for this target.
@@ -66,7 +66,7 @@ set(CMAKE_RC_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/forne/Documents/TestProject/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/DependInfo.cmake"
+  "C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

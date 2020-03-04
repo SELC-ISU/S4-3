@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/forne/Documents/TestProject/Builds/CLion/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/forne/Documents/TestProject/Builds/CLion/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="STANDALONE_PLUGIN">
-				<Option output="C:/Users/forne/Documents/TestProject/Builds/CLion/cmake-build-debug/TestProject.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/forne/Documents/TestProject/Builds/CLion/cmake-build-debug"/>
+				<Option output="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug/TestProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="0"/>
 				<Option compiler="msvc8"/>
@@ -49,8 +49,8 @@
 					<Add option="-DJucePlugin_Build_AAX=0"/>
 					<Add option="-DJucePlugin_Build_Standalone=1"/>
 					<Add option="-DJucePlugin_Build_Unity=0"/>
-					<Add directory="C:/Users/forne/Documents/TestProject/Builds/CLion/."/>
-					<Add directory="C:/Users/forne/Documents/TestProject/Builds/CLion/../../JuceLibraryCode"/>
+					<Add directory="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/."/>
+					<Add directory="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/../../JuceLibraryCode"/>
 					<Add directory="C:/JUCE/modules"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
@@ -61,15 +61,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 STANDALONE_PLUGIN"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 STANDALONE_PLUGIN"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="STANDALONE_PLUGIN/fast">
-				<Option output="C:/Users/forne/Documents/TestProject/Builds/CLion/cmake-build-debug/TestProject.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/forne/Documents/TestProject/Builds/CLion/cmake-build-debug"/>
+				<Option output="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug/TestProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="0"/>
 				<Option compiler="msvc8"/>
@@ -89,8 +89,8 @@
 					<Add option="-DJucePlugin_Build_AAX=0"/>
 					<Add option="-DJucePlugin_Build_Standalone=1"/>
 					<Add option="-DJucePlugin_Build_Unity=0"/>
-					<Add directory="C:/Users/forne/Documents/TestProject/Builds/CLion/."/>
-					<Add directory="C:/Users/forne/Documents/TestProject/Builds/CLion/../../JuceLibraryCode"/>
+					<Add directory="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/."/>
+					<Add directory="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/../../JuceLibraryCode"/>
 					<Add directory="C:/JUCE/modules"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
@@ -101,15 +101,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 STANDALONE_PLUGIN/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 STANDALONE_PLUGIN/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SHARED_CODE">
-				<Option output="C:/Users/forne/Documents/TestProject/Builds/CLion/cmake-build-debug/TestProject.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/forne/Documents/TestProject/Builds/CLion/cmake-build-debug"/>
+				<Option output="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug/TestProject.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
@@ -130,8 +130,8 @@
 					<Add option="-DJucePlugin_Build_Standalone=1"/>
 					<Add option="-DJucePlugin_Build_Unity=0"/>
 					<Add option="-DJUCE_SHARED_CODE=1"/>
-					<Add directory="C:/Users/forne/Documents/TestProject/Builds/CLion/."/>
-					<Add directory="C:/Users/forne/Documents/TestProject/Builds/CLion/../../JuceLibraryCode"/>
+					<Add directory="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/."/>
+					<Add directory="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/../../JuceLibraryCode"/>
 					<Add directory="C:/JUCE/modules"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
@@ -142,15 +142,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 SHARED_CODE"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 SHARED_CODE"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SHARED_CODE/fast">
-				<Option output="C:/Users/forne/Documents/TestProject/Builds/CLion/cmake-build-debug/TestProject.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/forne/Documents/TestProject/Builds/CLion/cmake-build-debug"/>
+				<Option output="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug/TestProject.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
@@ -171,8 +171,8 @@
 					<Add option="-DJucePlugin_Build_Standalone=1"/>
 					<Add option="-DJucePlugin_Build_Unity=0"/>
 					<Add option="-DJUCE_SHARED_CODE=1"/>
-					<Add directory="C:/Users/forne/Documents/TestProject/Builds/CLion/."/>
-					<Add directory="C:/Users/forne/Documents/TestProject/Builds/CLion/../../JuceLibraryCode"/>
+					<Add directory="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/."/>
+					<Add directory="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/../../JuceLibraryCode"/>
 					<Add directory="C:/JUCE/modules"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
@@ -183,20 +183,20 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 SHARED_CODE/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 SHARED_CODE/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/forne/Documents/TestProject/Builds/CLion/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\forne\Documents\TestProject\Builds\CLion\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Steve Kainashi\Documents\186Lab\Builds\CLion\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -4382,79 +4382,79 @@
 		<Unit filename="C:/JUCE/modules/juce_opengl/utils/juce_OpenGLAppComponent.h">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/Builds/CodeBlocksWindows/resources.rc">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CodeBlocksWindows/resources.rc">
 			<Option target="STANDALONE_PLUGIN"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/AppConfig.h">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/AppConfig.h">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/JuceHeader.h">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/JuceHeader.h">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_basics.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_basics.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_devices.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_devices.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_formats.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_formats.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp">
 			<Option target="STANDALONE_PLUGIN"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_processors.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_processors.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_audio_utils.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_audio_utils.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_core.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_core.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_cryptography.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_cryptography.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_data_structures.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_data_structures.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_events.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_events.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_graphics.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_graphics.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_gui_basics.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_gui_basics.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_gui_extra.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_gui_extra.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/JuceLibraryCode/include_juce_opengl.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/JuceLibraryCode/include_juce_opengl.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/Source/PluginEditor.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/Source/PluginEditor.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/Source/PluginEditor.h">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/Source/PluginEditor.h">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/Source/PluginProcessor.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/Source/PluginProcessor.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/Source/PluginProcessor.h">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/Source/PluginProcessor.h">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/Source/SineSpeed.cpp">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/Source/SineSpeed.cpp">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/Source/SineSpeed.h">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/Source/SineSpeed.h">
 			<Option target="SHARED_CODE"/>
 		</Unit>
-		<Unit filename="C:/Users/forne/Documents/TestProject/Builds/CLion/CMakeLists.txt">
+		<Unit filename="C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
