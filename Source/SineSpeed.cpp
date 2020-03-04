@@ -27,8 +27,7 @@
 //[/MiscUserDefs]
 
 //==============================================================================
-SineSpeed::SineSpeed ()
-{
+SineSpeed::SineSpeed() {
     //[Constructor_pre] You can add your own custom stuff here..
     //[/Constructor_pre]
 
@@ -36,15 +35,14 @@ SineSpeed::SineSpeed ()
     //[UserPreSize]
     //[/UserPreSize]
 
-    setSize (600, 400);
+    setSize(600, 400);
 
 
     //[Constructor] You can add your own custom stuff here..
     //[/Constructor]
 }
 
-SineSpeed::~SineSpeed()
-{
+SineSpeed::~SineSpeed() {
     //[Destructor_pre]. You can add your own custom destruction code here..
     //[/Destructor_pre]
 
@@ -55,19 +53,17 @@ SineSpeed::~SineSpeed()
 }
 
 //==============================================================================
-void SineSpeed::paint (Graphics& g)
-{
+void SineSpeed::paint(Graphics &g) {
     //[UserPrePaint] Add your own custom painting code here..
     //[/UserPrePaint]
 
-    g.fillAll (Colour (0xff323e44));
+    g.fillAll(Colour(0xff323e44));
 
     //[UserPaint] Add your own custom painting code here..
     //[/UserPaint]
 }
 
-void SineSpeed::resized()
-{
+void SineSpeed::resized() {
     //[UserPreResize] Add your own custom resize code here..
     //[/UserPreResize]
 

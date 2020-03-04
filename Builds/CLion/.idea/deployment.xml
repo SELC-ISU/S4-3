@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="WSL (5e83e982-e3df-4546-b628-c2d9b792aaea)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_audio_basics.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_audio_devices.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_audio_formats.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_audio_processors.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_audio_utils.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_core.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_cryptography.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_data_structures.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_events.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_graphics.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_gui_basics.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_gui_extra.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../JuceLibraryCode/include_juce_opengl.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../Source/PluginEditor.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../Source/PluginProcessor.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../Source/SineSpeed.cpp" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
