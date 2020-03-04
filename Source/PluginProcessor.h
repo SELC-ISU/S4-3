@@ -24,11 +24,10 @@ public:
     TestProjectAudioProcessor();
     ~TestProjectAudioProcessor();
 
-	float noteOnVel;
+	float noteOnVel = 0;
 
 	Random random;
 	float currentInt = 0;
-	int currentDir = 0; // 0 - up, 1- down
 
     //==============================================================================
     void prepareToPlay (double sampleRate, int samplesPerBlock) override;

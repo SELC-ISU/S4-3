@@ -168,12 +168,11 @@ void TestProjectAudioProcessor::processBlock (AudioBuffer<float>& buffer, MidiBu
         auto* channelData = buffer.getWritePointer (channel);
 
 		for (auto sample = 0; sample < totalNumOutputChannels; ++sample) {
-			channelData[sample] = noteOnVel;
+			channelData[sample] = 0.5 * sin(currentInt);
 		}
-
-		Logger::writeToLog(String(noteOnVel));
 		
 		currentInt = currentInt + noteOnVel;
+		Logger::writeToLog(String((currentInt)));
     }
 }
 
