@@ -1,4 +1,0 @@
-C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir
-C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir
-C:/Users/Steve Kainashi/Documents/186Lab/Builds/CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
