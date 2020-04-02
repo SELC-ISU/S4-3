@@ -10,24 +10,18 @@
 
 #pragma once
 
-#include <JuceHeader.h>
-#include <random>
-#include <cmath>
-
+#include "../JuceLibraryCode/JuceHeader.h"
+#include "SineWaveSound.h"
+#include "SineWaveVoice.h"
 //==============================================================================
 /**
 */
-class TestProjectAudioProcessor  : public AudioProcessor
+class AdditiveVstAudioProcessor  : public AudioProcessor
 {
 public:
     //==============================================================================
-    TestProjectAudioProcessor();
-    ~TestProjectAudioProcessor();
-
-	float noteOnVel = 0;
-
-	Random random;
-	float currentInt = 0;
+    AdditiveVstAudioProcessor();
+    ~AdditiveVstAudioProcessor();
 
     //==============================================================================
     void prepareToPlay (double sampleRate, int samplesPerBlock) override;
@@ -49,7 +43,6 @@ public:
     bool acceptsMidi() const override;
     bool producesMidi() const override;
     bool isMidiEffect() const override;
-	void getNextAudioBlock() const;
     double getTailLengthSeconds() const override;
 
     //==============================================================================
@@ -63,7 +56,10 @@ public:
     void getStateInformation (MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
 
+	Synthesiser sineSynth;
+
 private:
+	
     //==============================================================================
-	JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(TestProjectAudioProcessor);
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (AdditiveVstAudioProcessor)
 };

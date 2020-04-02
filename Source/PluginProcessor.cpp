@@ -10,167 +10,156 @@
 
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
-#include <iostream>
 
 //==============================================================================
-TestProjectAudioProcessor::TestProjectAudioProcessor()
-#ifndef JucePlugin_PreferredChannelConfigurations
-        : AudioProcessor(BusesProperties()
-#if !JucePlugin_IsMidiEffect
-#if !JucePlugin_IsSynth
-                                 .withInput("Input", AudioChannelSet::stereo(), true)
-#endif
-                                 .withOutput("Output", AudioChannelSet::stereo(), true)
-#endif
-)
-#endif
+AdditiveVstAudioProcessor::AdditiveVstAudioProcessor()
+     : AudioProcessor (BusesProperties() .withOutput ("Output", AudioChannelSet::stereo(), true)
+                       )
+
+{
+	
+	sineSynth.addVoice(new SineWaveVoice());
+	sineSynth.addSound(new SineWaveSound());
+}
+
+AdditiveVstAudioProcessor::~AdditiveVstAudioProcessor()
 {
 }
 
-
-TestProjectAudioProcessor::~TestProjectAudioProcessor() {
-
-}
-
 //==============================================================================
-const String TestProjectAudioProcessor::getName() const {
+const String AdditiveVstAudioProcessor::getName() const
+{
     return JucePlugin_Name;
 }
 
-bool TestProjectAudioProcessor::acceptsMidi() const {
-#if JucePlugin_WantsMidiInput
+bool AdditiveVstAudioProcessor::acceptsMidi() const
+{
+   #if JucePlugin_WantsMidiInput
     return true;
-#else
+   #else
     return false;
-#endif
+   #endif
 }
 
-bool TestProjectAudioProcessor::producesMidi() const {
-#if JucePlugin_ProducesMidiOutput
+bool AdditiveVstAudioProcessor::producesMidi() const
+{
+   #if JucePlugin_ProducesMidiOutput
     return true;
-#else
+   #else
     return false;
-#endif
+   #endif
 }
 
-bool TestProjectAudioProcessor::isMidiEffect() const {
-#if JucePlugin_IsMidiEffect
+bool AdditiveVstAudioProcessor::isMidiEffect() const
+{
+   #if JucePlugin_IsMidiEffect
     return true;
-#else
+   #else
     return false;
-#endif
+   #endif
 }
 
-void TestProjectAudioProcessor::getNextAudioBlock() const {
-
-}
-
-double TestProjectAudioProcessor::getTailLengthSeconds() const {
+double AdditiveVstAudioProcessor::getTailLengthSeconds() const
+{
     return 0.0;
 }
 
-int TestProjectAudioProcessor::getNumPrograms() {
+int AdditiveVstAudioProcessor::getNumPrograms()
+{
     return 1;   // NB: some hosts don't cope very well if you tell them there are 0 programs,
-    // so this should be at least 1, even if you're not really implementing programs.
+                // so this should be at least 1, even if you're not really implementing programs.
 }
 
-int TestProjectAudioProcessor::getCurrentProgram() {
+int AdditiveVstAudioProcessor::getCurrentProgram()
+{
     return 0;
 }
 
-void TestProjectAudioProcessor::setCurrentProgram(int index) {
+void AdditiveVstAudioProcessor::setCurrentProgram (int index)
+{
 }
 
-const String TestProjectAudioProcessor::getProgramName(int index) {
+const String AdditiveVstAudioProcessor::getProgramName (int index)
+{
     return {};
 }
 
-void TestProjectAudioProcessor::changeProgramName(int index, const String &newName) {
+void AdditiveVstAudioProcessor::changeProgramName (int index, const String& newName)
+{
 }
 
 //==============================================================================
-void TestProjectAudioProcessor::prepareToPlay(double sampleRate, int samplesPerBlock) {
+void AdditiveVstAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
+{
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
+	sineSynth.setCurrentPlaybackSampleRate(sampleRate);
 }
 
-void TestProjectAudioProcessor::releaseResources() {
+void AdditiveVstAudioProcessor::releaseResources()
+{
     // When playback stops, you can use this as an opportunity to free up any
     // spare memory, etc.
 }
 
 #ifndef JucePlugin_PreferredChannelConfigurations
-
-bool TestProjectAudioProcessor::isBusesLayoutSupported(const BusesLayout &layouts) const {
-#if JucePlugin_IsMidiEffect
+bool AdditiveVstAudioProcessor::isBusesLayoutSupported (const BusesLayout& layouts) const
+{
+  #if JucePlugin_IsMidiEffect
     ignoreUnused (layouts);
     return true;
-#else
+  #else
     // This is the place where you check if the layout is supported.
     // In this template code we only support mono or stereo.
     if (layouts.getMainOutputChannelSet() != AudioChannelSet::mono()
-        && layouts.getMainOutputChannelSet() != AudioChannelSet::stereo())
+     && layouts.getMainOutputChannelSet() != AudioChannelSet::stereo())
         return false;
 
     // This checks if the input layout matches the output layout
-#if !JucePlugin_IsSynth
+   #if ! JucePlugin_IsSynth
     if (layouts.getMainOutputChannelSet() != layouts.getMainInputChannelSet())
         return false;
-#endif
+   #endif
 
     return true;
-#endif
+  #endif
 }
-
 #endif
 
-void TestProjectAudioProcessorEditor::sliderValueChanged(Slider *slider) {
-    processor.noteOnVel = frequencyControl.getValue();
-}
-
-void TestProjectAudioProcessor::processBlock(AudioBuffer<float> &buffer, MidiBuffer &midiMessages) {
-    ScopedNoDenormals noDenormals;
-    auto totalNumInputChannels = getTotalNumInputChannels();
-    auto totalNumOutputChannels = getTotalNumOutputChannels();
-
-    for (auto i = totalNumInputChannels; i < totalNumOutputChannels; ++i)
-        buffer.clear(i, 0, buffer.getNumSamples());
-
-    for (int channel = 0; channel < totalNumInputChannels; ++channel) {
-        auto *channelData = buffer.getWritePointer(channel);
-
-        for (auto sample = 0; sample < totalNumOutputChannels; ++sample) {
-            channelData[sample] = 0.5 * sin(currentInt);
-        }
-
-        currentInt = currentInt + noteOnVel;
-        Logger::writeToLog(String((currentInt)));
-    }
+void AdditiveVstAudioProcessor::processBlock (AudioBuffer<float>& buffer, MidiBuffer& midiMessages)
+{
+	
+	sineSynth.renderNextBlock(buffer, midiMessages, 0, buffer.getNumSamples());
 }
 
 //==============================================================================
-bool TestProjectAudioProcessor::hasEditor() const {
+bool AdditiveVstAudioProcessor::hasEditor() const
+{
     return true; // (change this to false if you choose to not supply an editor)
 }
 
-AudioProcessorEditor *TestProjectAudioProcessor::createEditor() {
-    return new TestProjectAudioProcessorEditor(*this);
+AudioProcessorEditor* AdditiveVstAudioProcessor::createEditor()
+{
+    return new AdditiveVstAudioProcessorEditor (*this);
 }
 
 //==============================================================================
-void TestProjectAudioProcessor::getStateInformation(MemoryBlock &destData) {
+void AdditiveVstAudioProcessor::getStateInformation (MemoryBlock& destData)
+{
     // You should use this method to store your parameters in the memory block.
     // You could do that either as raw data, or use the XML or ValueTree classes
     // as intermediaries to make it easy to save and load complex data.
 }
 
-void TestProjectAudioProcessor::setStateInformation(const void *data, int sizeInBytes) {
+void AdditiveVstAudioProcessor::setStateInformation (const void* data, int sizeInBytes)
+{
     // You should use this method to restore your parameters from this memory block,
     // whose contents will have been created by the getStateInformation() call.
 }
 
 //==============================================================================
 // This creates new instances of the plugin..
-AudioProcessor *JUCE_CALLTYPE createPluginFilter() {
-    return new TestProjectAudioProcessor();
+AudioProcessor* JUCE_CALLTYPE createPluginFilter()
+{
+    return new AdditiveVstAudioProcessor();
 }

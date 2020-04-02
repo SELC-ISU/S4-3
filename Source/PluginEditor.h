@@ -10,18 +10,17 @@
 
 #pragma once
 
-#include <JuceHeader.h>
+#include "../JuceLibraryCode/JuceHeader.h"
 #include "PluginProcessor.h"
 
 //==============================================================================
 /**
 */
-class TestProjectAudioProcessorEditor  : public AudioProcessorEditor,
-	private Slider::Listener
+class AdditiveVstAudioProcessorEditor  : public AudioProcessorEditor
 {
 public:
-    TestProjectAudioProcessorEditor (TestProjectAudioProcessor&);
-    ~TestProjectAudioProcessorEditor();
+    AdditiveVstAudioProcessorEditor (AdditiveVstAudioProcessor&);
+    ~AdditiveVstAudioProcessorEditor();
 
     //==============================================================================
     void paint (Graphics&) override;
@@ -30,11 +29,10 @@ public:
 private:
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.
-    TestProjectAudioProcessor& processor;
+    AdditiveVstAudioProcessor& processor;
 
-	void sliderValueChanged(Slider* slider) override; // [3]
+	Slider midiVolume;
 
-	Slider frequencyControl;
 
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (TestProjectAudioProcessorEditor)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (AdditiveVstAudioProcessorEditor)
 };
